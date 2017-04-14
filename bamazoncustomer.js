@@ -57,6 +57,7 @@ var anotherSale = function () {
         if (answers.anotherSale) {
             startSale();
         } else {
+        	console.log("Thank you for shopping at Bamazon, Hope to see you again soon!");
             connection.end();
             return false;
         }
